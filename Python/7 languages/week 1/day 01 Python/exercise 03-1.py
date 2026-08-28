@@ -1,3 +1,5 @@
+#this file is my first attempt and does not use pythons built-ins like sum() and len()
+
 scores = [1250, 850, 2100, 450, 1750, 3000]
 total = 0
 count=0
