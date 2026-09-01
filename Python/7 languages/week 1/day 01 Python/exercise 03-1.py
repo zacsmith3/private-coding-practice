@@ -22,8 +22,8 @@ for score in scores:
     print(score)
     total = add_points(total, score)
     count += 1
-    average = get_average(total, count) 
     high_scores_count += is_high_score(score) 
+average = get_average(total, count) 
 print(f"Total: {total}")
 print(f"Average: {average}")
 print(f"Scores of at least 1,500: {high_scores_count}")

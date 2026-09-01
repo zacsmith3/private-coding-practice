@@ -1,7 +1,7 @@
 player_level = 10
-has_account = 1
+has_account = True
 
 if player_level >= 10 and has_account:
-    print(f"Access granted")
+    print("Access granted")
 else:
-    print(f"Access denied")
+    print("Access denied")
