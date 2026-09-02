@@ -35,7 +35,7 @@ function highScores(scores: number[], threshold: number): number {
     return count;
 }
 
-console.log("Total Scores: " + totalScores(scores));
+console.log("Number of Scores: " + countScores(scores));
 console.log("Average Scores: " + averageScores(scores));
 
 const threshold: number = 1500;
