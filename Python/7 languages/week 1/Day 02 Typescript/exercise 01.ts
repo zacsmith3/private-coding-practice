@@ -1,4 +1,4 @@
-const playerLevel: number = 10;
+const playerLevel: number = 9;
 const hasAccount: boolean = true;
 
 function canAccessGame(playerLevel: number, hasAccount: boolean): boolean {
