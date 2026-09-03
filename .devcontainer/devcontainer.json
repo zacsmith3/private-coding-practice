@@ -4,14 +4,14 @@
   "service": "app",
   "workspaceFolder": "/workspace",
   "features": {
-    "ghcr.io/devcontainers/features/python:1": { "version": "3.12" },
-    "ghcr.io/devcontainers/features/node:1": { "version": "20" },
-    "ghcr.io/devcontainers/features/rust:1": {},
-    "ghcr.io/devcontainers/features/go:1": { "version": "1.22" },
-    "ghcr.io/devcontainers/features/postgresql-client:1": {},
-    "ghcr.io/julialang/devcontainer-features/julia:1": {},
-    "ghcr.io/rocker-org/devcontainer-features/r-apt:1": {}
-  },
+  "ghcr.io/devcontainers/features/python:1": { "version": "3.12" },
+  "ghcr.io/devcontainers/features/node:2.1.0": { "version": "20" },
+  "ghcr.io/devcontainers/features/rust:1": {},
+  "ghcr.io/devcontainers/features/go:1": { "version": "1.22" },
+  "ghcr.io/robbert229/devcontainer-features/postgresql-client:1": {},
+  "ghcr.io/julialang/devcontainer-features/julia:1": {},
+  "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {}
+},
   "postCreateCommand": "npm install -g typescript ts-node && bash .devcontainer/install-zig.sh",
   "customizations": {
     "vscode": {
