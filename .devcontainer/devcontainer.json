@@ -20,10 +20,11 @@
         "dbaeumer.vscode-eslint",
         "rust-lang.rust-analyzer",
         "golang.go",
-        "REditorSupport-r.r",
+        "REditorSupport.r",
         "julialang.language-julia",
         "ziglang.vscode-zig",
-        "ms-ossdata.vscode-postgresql"
+        "ms-ossdata.vscode-pgsql",
+        "vadimcn.vscode-lldb"
       ]
     }
   },
