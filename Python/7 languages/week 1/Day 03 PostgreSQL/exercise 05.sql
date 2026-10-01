@@ -39,7 +39,7 @@ WITH stats AS (
         COUNT(*) FILTER (WHERE from_new_location) AS new_location_attempts
     FROM login_attempts
     GROUP BY username
-)
+    )
 SELECT
     username,
     total_attempts,
